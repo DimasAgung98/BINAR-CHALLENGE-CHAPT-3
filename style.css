@@ -49,6 +49,11 @@
   background-color: #F8B13B;
 }
 
+.buttonhero:hover,
+.buttonhero:focus {
+  color: white;
+}
+
 .heroScroll {
   margin: auto;
   text-align: center;
