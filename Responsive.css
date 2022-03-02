@@ -1,1 +1,93 @@
 /* DESKTOP VERSION */
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .gamereq h1 {
+        font-size: 72px !important;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .headerText h1 {
+        font-size: 80px;
+        letter-spacing: 3px;
+    }
+}
+
+/* X-Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) {
+    .headerText h1 {
+        font-size: 70px;
+        letter-spacing: 2px;
+    }
+}
+
+/* X-Large devices (large desktops, 768px and up) */
+@media (min-width: 768px) {
+    .headerText h1 {
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+
+    .headerText p {
+        font-weight: 350;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .top-md-50 {
+        top: 50px;
+    }
+
+    .gamereq h1 {
+        font-size: 52px !important;
+    }
+
+    .newsletterText h2 {
+        font-size: 4rem;
+    }
+
+    .newsletterText p {
+        font-size: x-large;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 330px) {
+    .negmar-2 {
+        margin-top: -12px;
+    }
+}
+
+/* Mobile Version */
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #features .container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 4rem .5rem;
+        border: .5rem rgba(0, 0, 0, 0.7);
+        border-radius: .5rem;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .tableContent h5 {
+        font-size: 1rem;
+    }
+
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .tableContent p {
+        font-size: 0.7rem;
+    }
+
+    .imgfooter {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+}
