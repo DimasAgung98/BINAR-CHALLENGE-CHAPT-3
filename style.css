@@ -110,14 +110,33 @@
 /* Game Choice Section styling */
 
 .gamechoice {
+  position: relative;
+  max-width: 100%;
   height: 100vh;
-  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(assets/the-games-bg.jpg);
 }
 
+.gameChoice--title {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+.gameChoice--subtitle {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
 .gamefeatures {
+  position: relative;
+  padding-top: 3rem;
+  max-width: 100%;
   height: 100vh;
-  min-height: 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(assets/featuresV2.jpg);
   letter-spacing: 0.2rem;
 }
@@ -147,6 +166,11 @@
 
 .carousel-indicators .active {
   background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5% !important;
 }
 
 .itemContainer {
@@ -187,10 +211,28 @@
 /* Requirements Section */
 
 .gamereq {
+  position: relative;
+  padding-top: 3rem;
+  max-width: 100%;
   height: 100vh;
-  min-height: 500px;
-  background-image: url(assets/requirements.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: radial-gradient(40% 55% at 60% 70%, rgba(0, 0, 0, 0.1) 80%, #000 99.74%), url(assets/requirements.png);
   box-shadow: inset 400px 0px 1000px 200px rgb(0 0 0 / 90%);
+}
+
+.gameReq--title {
+  font-size: 52px;
+  letter-spacing: 3px;
+}
+
+.tableContent h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: left;
 }
 
 .tableBg {
@@ -235,8 +277,13 @@
 }
 
 .topscore {
+  position: relative;
+  padding-top: 3rem;
+  max-width: 100%;
   height: 100vh;
-  min-height: 500px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(assets/bg-scores.jpg);
 }
 
@@ -291,9 +338,14 @@
 /* Newsletter and Suscribe section */
 
 .emailForm {
-  background-color: rgba(255, 255, 255, 0.08);
-  color: orange;
+  color: rgba(255, 255, 255, 0.5);
   border: unset
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: unset;
+  color: orange !important;
 }
 
 .newsletterText h2 {
@@ -326,6 +378,27 @@
 .footerNav a {
   text-decoration: none;
   color: white;
+}
+
+.footerHover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerHover a .bi-facebook:hover {
+  color: #1877f2;
+}
+
+.footerHover a .bi-twitter:hover {
+  color: #1da1f2;
+}
+
+.footerHover a .bi-youtube:hover {
+  color: #cd201f;
+}
+
+.footerHover a .bi-twitch:hover {
+  color: #6441a4;
 }
 
 /* End of Footer section */
