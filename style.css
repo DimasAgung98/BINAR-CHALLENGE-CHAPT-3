@@ -31,7 +31,7 @@
 }
 
 .ls-1 {
-  font-size: 80px;
+  font-size: 64px;
   letter-spacing: 3px;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .gameChoice--title {
-  font-size: 56px;
+  font-size: 48px;
   letter-spacing: 2px;
 }
 
@@ -239,7 +239,7 @@
   padding: 0;
   background-image: url("assets/table.png");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 500px;
   height: 350px;
@@ -298,8 +298,13 @@
   max-width: 30rem;
   min-height: 150px;
   text-align: left;
-  position: absolute;
+  position: relative;
   background: rgba(255, 255, 255, 0.1);
+  transition: transform .2s;
+  -webkit-transition: transform .2s;
+  -moz-transition: transform .2s;
+  -ms-transition: transform .2s;
+  -o-transition: transform .2s;
 }
 
 .cardSize {
@@ -312,7 +317,6 @@
 }
 
 .cardProfile-img {
-  width: 30rem;
   align-items: center;
   column-gap: 1rem;
 }
@@ -330,6 +334,14 @@
 
 .cardtitleColor {
   color: orange;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 /* End of Top scores section */
@@ -378,6 +390,10 @@
 .footerNav a {
   text-decoration: none;
   color: white;
+}
+
+.footerNav a:hover {
+  color: orange;
 }
 
 .footerHover a {
