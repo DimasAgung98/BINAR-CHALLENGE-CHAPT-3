@@ -34,6 +34,10 @@
     .footerText p {
         text-align: center;
     }
+
+    .footerNav a {
+        font-size: 18px;
+    }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
