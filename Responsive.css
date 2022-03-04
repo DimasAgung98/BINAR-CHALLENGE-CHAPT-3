@@ -36,7 +36,11 @@
     }
 
     .footerNav a {
-        font-size: 18px;
+        font-size: 12px;
+    }
+
+    .newsletterText p {
+        padding-top: 5rem;
     }
 }
 
