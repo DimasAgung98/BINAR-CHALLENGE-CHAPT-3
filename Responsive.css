@@ -90,6 +90,12 @@
     }
 }
 
+@media (max-width: 375.98px) {
+    .footerNav a {
+        font-size: 11px;
+    }
+}
+
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .ls-1 {
