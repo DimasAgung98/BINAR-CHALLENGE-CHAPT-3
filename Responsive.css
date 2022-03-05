@@ -47,6 +47,14 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .topscore {
+        height: 100%;
+    }
+
+    .tableBg {
+        height: 380px;
+    }
+
     .ls-1 {
         font-size: 36px;
         letter-spacing: 1px;
